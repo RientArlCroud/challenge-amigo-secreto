@@ -19,7 +19,6 @@ function agregarAmigo() {
     limpiarCaja();
 
     return;
-    amigoAgregado.focus();
 }
 
 
@@ -44,4 +43,23 @@ function actualizarLista() {
         lista.appendChild(nuevoLi);
     }
 
+}
+
+function sortearAmigo() {
+// primero debe observar si el array está vacio 
+    if (amigos.length === 0) {
+        alert("No ha ingresado amigos para sortear");
+    }
+// generar un índice aleatorio, tengamos en cuenta varias cosas, 1. el math.random debe indicar valores del índice del array, 2.debemos usar el length ya que el valor del tamaño del array cambia
+// en este caso no sumamos 1, debido a que math.random selecciona valores en 0 y 1, necesitamos el 0 pues 0 es el índice de un elemento
+    let amigoSorteado = Math.floor(Math.random()*amigos.length);
+
+// Acceder al amigo sorteado, lo que yo creo es que debo llamar al array en la posición de la nueva variable, ya que esta guarda el sorteo
+    console.log(amigos[amigoSorteado]);
+//aquí accedemos a la lista, y pintamos el amigo sorteado a través de innerHTML, pero en la aplicación que muestran los profes ellos esconden la lista de los nombres
+
+    let listaSorteo = document.getElementById('resultado');
+    listaSorteo.innerHTML = `El amigo secreto sorteado es ${amigos[amigoSorteado]}`;
+// con este código lo que hacemos es hacer desaparecer la lista de la pantalla, debemos seguir practicando para entender todo
+    document.getElementById('listaAmigos').style.display = "none";
 }
