@@ -49,7 +49,7 @@ function sortearAmigo() {
 // primero debe observar si el array está vacio 
     if (amigos.length === 0) {
         alert("No ha ingresado amigos para sortear");
-    }
+    }else {
 // generar un índice aleatorio, tengamos en cuenta varias cosas, 1. el math.random debe indicar valores del índice del array, 2.debemos usar el length ya que el valor del tamaño del array cambia
 // en este caso no sumamos 1, debido a que math.random selecciona valores en 0 y 1, necesitamos el 0 pues 0 es el índice de un elemento
     let amigoSorteado = Math.floor(Math.random()*amigos.length);
@@ -62,4 +62,5 @@ function sortearAmigo() {
     listaSorteo.innerHTML = `El amigo secreto sorteado es ${amigos[amigoSorteado]}`;
 // con este código lo que hacemos es hacer desaparecer la lista de la pantalla, debemos seguir practicando para entender todo
     document.getElementById('listaAmigos').style.display = "none";
+}
 }
