@@ -12,6 +12,6 @@
 * Java 8
 
 ## Autores
-| [[King Croud](https://github.com/user-attachments/assets/064da7f3-650f-4401-ad3c-423345307834) <br><sub>Juan Rodríguez</sub>] <br>(https://github.com/RientArlCroud) |  
+|  ![King Croud](https://github.com/user-attachments/assets/7e0932e0-7dc8-49e9-ad99-236c0e6b6600)<br><sub>Juan Rodríguez</sub> <br>https://github.com/RientArlCroud |  
 | :---: |
 
