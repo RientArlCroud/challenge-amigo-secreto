@@ -2,7 +2,7 @@
 
 <h3>Descripción:</h3>
 <h4 align="center">
-:construction: Desarrollo del reto de Oracle, proporcionado por alura, proceso de aprendizaje de desarrolladores web :construction:
+:construction: Desarrollo del reto de Oracle, proporcionado por alura, proceso de aprendizaje de desarrolladores web. Aquí se encuentra el deploy de la app https://rientarlcroud.github.io/challenge-amigo-secreto/ :construction:
 </h4>
 
 ## :hammer:Funcionalidades del proyecto
