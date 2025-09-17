@@ -64,3 +64,11 @@ function sortearAmigo() {
     document.getElementById('listaAmigos').style.display = "none";
 }
 }
+
+
+function reiniciarJuego() {
+    amigos = [];
+
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = "";
+}
